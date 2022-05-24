@@ -2,7 +2,10 @@ FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY . .
+COPY ./client/docs/ ./docs/
+COPY ./app.js ./
+COPY ./package.json ./
+RUN yarn install --production
 
 EXPOSE 8080
 
