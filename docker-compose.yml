@@ -1,0 +1,13 @@
+version: '3.8'
+services: 
+  client:
+    image: client
+    ports:
+      - "8080:8080"
+    networks:
+      - app-photo
+networks: 
+  app-photo:
+    external: 
+      name: nat
+
