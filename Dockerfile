@@ -2,7 +2,7 @@ FROM node:16
 
 WORKDIR /usr/src/app
 
-COPY ./client/docs/ ./docs/
+COPY ./docs/ ./docs/
 COPY ./app.js ./
 COPY ./package.json ./
 RUN yarn install --production
