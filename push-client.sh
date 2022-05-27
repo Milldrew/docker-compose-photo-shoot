@@ -1,1 +1,1 @@
-docker push andrewpatrickmiller/robot-photographer:client
+docker push andrewpatrickmiller/robot-photographer:client$1
