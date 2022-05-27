@@ -1,1 +1,1 @@
-docker image build . --tag andrewpatrickmiller/robot-photographer:client
+docker image build . --tag andrewpatrickmiller/robot-photographer:client$1
